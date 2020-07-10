@@ -1,4 +1,4 @@
-import { Application, Context } from "https://deno.land/x/abc@v1.0.0-rc10/mod.ts"
+import { Application, Context } from "./deps.ts"
 import { QueryResult, Response } from './config.ts';
 
 const app = new Application();
